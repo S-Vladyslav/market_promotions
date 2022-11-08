@@ -1,7 +1,7 @@
 import telebot
 import config
 from web_scraping import Atbmarket_promotions
-#vlad.len531@gmail.com   Qwertypoiu123!
+
 bot = telebot.TeleBot(config.TOKEN)
 
 @bot.message_handler(content_types = ['text'])
